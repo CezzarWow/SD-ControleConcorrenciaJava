@@ -7,7 +7,7 @@ public class Cliente extends Thread {
     public Cliente(String nome, Conta conta) {
         super(nome);
         this.conta = conta;
-    
+    }
     public void run() {
         double total = 0;
         System.out.println("Cliente " + getName() + " ativo.");

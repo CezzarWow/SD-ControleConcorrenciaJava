@@ -2,7 +2,7 @@
 public class Familia {
     public static void main (String args[]) {
         // Cria conta conjunta da família
-        final Conta conta = new Conta();
+        final Conta conta = new Conta(0);
         // Cria familiares e lhes informa a conta conjunta
         Cliente pai = new Cliente("Pai ", conta);
         Cliente mae = new Cliente("Mãe ", conta);

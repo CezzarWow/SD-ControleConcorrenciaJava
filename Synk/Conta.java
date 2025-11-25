@@ -5,7 +5,7 @@ public class Conta {
     /** Creates a new instance of Conta */
     public Conta(double saldo) {
         this.saldo = saldo;
-        System.out.println("Conta criada. Saldo inicial: R$"  saldo);
+        System.out.println("Conta criada. Saldo inicial: R$" + saldo);
     }
     
     public synchronized double getSaldo() {
